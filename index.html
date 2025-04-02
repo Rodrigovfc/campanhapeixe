@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orientações sobre Phishing</title>
+    <style>
+        /* Estilos gerais da página */
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        
+        /* Estilo do título principal - centralizado */
+        h1 {
+            color: #d9534f;
+            border-bottom: 2px solid #d9534f;
+            padding-bottom: 10px;
+            text-align: center;
+        }
+        
+        /* Estilos para subtítulos */
+        h2 {
+            color: #5bc0de;
+            margin-top: 25px;
+        }
+        
+        h3 {
+            color: #5cb85c;
+        }
+        
+        /* Estilos para listas */
+        ul {
+            padding-left: 20px;
+        }
+        
+        li {
+            margin-bottom: 8px;
+        }
+        
+        /* Estilo especial para lista com checkboxes */
+        .checkbox-list {
+            list-style-type: none;
+            padding-left: 5px;
+        }
+        
+        .checkbox-list li:before {
+            content: "☑ ";
+            color: #d9534f;
+        }
+        
+        .checkbox-list li.checked:before {
+            content: "☑ ";
+            color: #d9534f;
+        }
+        
+        /* Caixa de aviso amarela */
+        .warning-box {
+            background-color: #fff3cd;
+            border-left: 4px solid #ffc107;
+            padding: 15px;
+            margin: 20px 0;
+        }
+        
+        /* Estilo do botão verde */
+        .btn {
+            display: inline-block;
+            background-color: #5cb85c;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            margin: 20px 0;
+            transition: background-color 0.3s;
+            text-align: center;
+        }
+        
+        .btn:hover {
+            background-color: #449d44;
+        }
+        
+        /* Container para centralizar o botão */
+        .btn-container {
+            text-align: center;
+        }
+        
+        /* Estilo para a frase de responsabilidade */
+        .responsability {
+            font-style: italic;
+            margin-top: 30px;
+            text-align: center;
+            font-size: 1.1em;
+            color: #5cb85c;
+            font-weight: bold;
+        }
+        
+        /* Estilo para a imagem do rodapé - AJUSTADO */
+        .footer-image {
+            width: 100%;
+            max-width: 800px;
+            height: auto;
+            display: block;
+            margin: 40px auto 0;
+            border-radius: 4px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body>
+    <!-- Título principal centralizado -->
+    <h1>Opa, você caiu em um phishing!</h1>
+
+    <!-- Seção explicativa sobre phishing -->
+    <h2>O que é um Phishing?</h2>
+    <p>O phishing é um golpe digital em que os criminosos enviam mensagens falsas para estimular as vítimas a fornecerem informações confidenciais, como senhas, credenciais, números do cartão de crédito, entre outros.</p>
+
+    <!-- Lista de características de e-mails phishing -->
+    <h3>Quais as características de um e-mail Phishing?</h3>
+    <ul class="checkbox-list">
+        <li>Requisição de informações ou dinheiro.</li>
+        <li class="checked">Anexos não solicitados.</li>
+        <li>Links para páginas de login.</li>
+        <li class="checked">Tom de urgência.</li>
+    </ul>
+
+    <!-- Dicas para evitar phishing -->
+    <h2>Como evitar ser vítima de Phishing?</h2>
+    <div class="warning-box">
+        <ul>
+            <li><strong>Desconfie</strong> de mensagens urgentes demais ou incríveis demais. Entre em contato com a pessoa, empresa ou banco em questão por meio de outros canais e confirme a veracidade da informação.</li>
+            <li><strong>Não clique</strong> em links nem baixe anexos enviados por pessoas desconhecidas, e não forneça nem confirme informações pessoais por mensagem ou telefone.</li>
+            <li><strong>Tenha cuidado</strong> com anúncios em e-mails e redes sociais que apresentam promoções boas demais para ser verdade. Quando possível, entre no site oficial da loja.</li>
+            <li><strong>Verifique o HTTPS</strong> (<span class="highlight">https://</span>) e o cadeado na URL antes de inserir dados sensíveis.</li>
+            <li><strong>Use um antivírus</strong> confiável e mantenha-o atualizado.</li>
+            <li><strong>Ative a verificação em duas etapas</strong> sempre que possível para proteger suas contas.</li>
+        </ul>
+    </div>
+
+    <!-- Botão centralizado verde -->
+    <div class="btn-container">
+        <a href="https://unimedcampinas.hackerrangers.com/#/phishos" class="btn">Clique aqui e saiba mais como identificar um e-mail falso!</a>
+    </div>
+
+    <!-- Frase de responsabilidade -->
+    <div class="responsability">
+        Segurança da Informação, uma responsabilidade de todos!
+    </div>
+
+    <!-- IMAGEM DO RODAPÉ - LINK CORRIGIDO -->
+    <img src="https://i.postimg.cc/26bDKxGN/Seg-Info-Rodape.png" 
+         alt="Rodapé com informações de segurança" 
+         class="footer-image">
+</body>
+</html>
